@@ -46,9 +46,9 @@ Here is the log of an execution which produced a 512x512 image on my present (at
     sys     0m0.155s
     $
     
-The output image is in the file out-see.bmp (a reference version is provided in file out-see.512x512-ref.bmp). Naturally, it was hard to choose a picture from someone other than Escher as the texture for the cube faces...   
+The output image is in the file out-sse.bmp (a reference version is provided in file out-sse.512x512-ref.bmp). Naturally, it was hard to choose a picture from someone other than Escher as the texture for the cube faces...   
     
-As I'm afraid, I invested much much more on optimization than on user friendlyness, this is (therefore) not a highly user-friendly program... Still, there are a number of parameters which can (pretty) safely be played with.
+As I'm afraid I invested much much more on optimization than on user friendlyness, this is (therefore) not a highly user-friendly program... Still, there are a number of parameters which can (pretty) safely be played with.
 
 To change (and have fun experimenting with) the black hole mass, one has to change the following define:
 
@@ -59,7 +59,7 @@ To change the output image resolution one has to change the following defines:
     #define IMAG_WIDTH 512
     #define IMAG_HEIGHT 512
 
-To change the input image file (**should be a 256 colors indexed BMP**), one has to change the following defines:
+To change the input image file **(should be a 256 colors indexed BMP)**, one has to change the following defines:
 
     #define TEXTURE_FILE "LW306_512x512.bmp"
     #define TEXTURE_WIDTH 512
@@ -97,7 +97,7 @@ Almost 19 hours of crunching done in... 10 mins!
 
 As a bonus, the 7000x7000 image is included in this repository (compressed with gzip).
 
-So this is a good program getting a for little smoke out of your CPUs - and I have now run it on many high-end computers - and it produces nice images in exchange, which I guess is funnier than boring things like just crunching crypto for mining bitcoins ;-)
+So this is a cool program for getting a little smoke out of your CPUs - and I have now run it on many high-end computers since 2011 (when it was initially written) - and it produces nice images in exchange, which I guess is funnier than boring things like just crunching crypto for mining bitcoins ;-)
 
 The code is distributed under the GPL.
 
