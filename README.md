@@ -97,7 +97,7 @@ Almost 19 hours of crunching done in... 10 mins!
 
 As a bonus, the 7000x7000 image is included in this repository (compressed with gzip).
 
-So this is a cool program for getting a little smoke out of your CPUs - and I have now run it on many high-end computers since 2011 (when it was initially written) - and it produces nice images in exchange, which I guess is funnier than boring things like just crunching crypto for mining bitcoins ;-)
+So this is a cool program for getting a little smoke out of your CPUs - and I have now run it on many high-end computers since 2011 (when it was initially written as a late night sofa project) - and it produces nice images in exchange, which I guess is funnier than boring things like just crunching crypto for mining bitcoins ;-)
 
 The code is distributed under the GPL.
 
