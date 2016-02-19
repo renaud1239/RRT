@@ -8,7 +8,7 @@ It does so by means of the ray tracing technique but with the rays bending accor
 
 As such, tracing a ray requires solving the two following differential equations:
 
-![Ray equations](diffeq.png)
+<img src="diffeq.png" width="100">
 
 in the polar coordinates *phi* and *r*, which is done using the (simple) Euler method.
 
