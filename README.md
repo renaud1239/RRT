@@ -43,6 +43,11 @@ Here is the log of an execution which produced a 512x512 image on my present (at
     $
     
 The output image is in the file out-sse.bmp (a reference version is provided in file out-sse.512x512-ref.bmp). Naturally, it was hard to choose a picture from someone other than Escher as the texture for the cube faces...   
+
+Here it is :
+
+![Ref output](out-sse.512x512-ref.bmp)
+
     
 As I'm afraid I invested much much more on optimization than on user friendlyness, this is (therefore) not a highly user-friendly program... Still, there are a number of parameters which can (pretty) safely be played with.
 
