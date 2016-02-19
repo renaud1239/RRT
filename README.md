@@ -6,9 +6,9 @@ This program provides a numerical code which simulates the distortion of light i
 
 It does so by means of the ray tracing technique but with the rays bending according to the so-called Schwarzschild metric (i.e. the solution of Einstein's general relativity field equation for an isolated spherical non-rotating mass).
 
-As such, tracing a ray requires solving the two following differential equations (in LaTeX notations):
+As such, tracing a ray requires solving the two following differential equations:
 
-![Ray equations](diffeq.png=100x)
+![Ray equations](diffeq.png =100x)
 
 in the polar coordinates *phi* and *r*, which is done using the (simple) Euler method.
 
