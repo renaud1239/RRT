@@ -8,13 +8,7 @@ It does so by means of the ray tracing technique but with the rays bending accor
 
 As such, tracing a ray requires solving the two following differential equations (in LaTeX notations):
 
-![Ray equations](diffeq.png)
-
-#    \frac{dr}{dt}=\pm\left(1-\frac{2M}{r}\right)\sqrt{1-\left(1-\frac{2M}{r}\right)\frac{b^2}{r^2}}
-#
-#and
-#
-#    \frac{d\phi}{dt}=\pm\frac{b}{r^2}\left(1-\frac{2M}{r}\right)
+![Ray equations](diffeq.png=100x)
 
 in the polar coordinates *phi* and *r*, which is done using the (simple) Euler method.
 
