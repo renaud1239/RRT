@@ -111,4 +111,4 @@ Happy crunching!
 
 ![The funky scientist](http://sirdeyre.free.fr/Renaud-cartoon-relativite.gif)
 
-Chekc out the [official web site](http://sirdeyre.free.fr/maths/relativity.htm)|
+You can also check out the [web site](http://sirdeyre.free.fr/maths/relativity.htm)...
