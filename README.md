@@ -6,7 +6,7 @@ This program provides a numerical code which simulates the distortion of light i
 
 It does so by means of the ray tracing technique but with the rays bending according to the so-called Schwarzschild metric (i.e. the solution of Einstein's general relativity field equation for an isolated spherical non-rotating mass).
 
-As such, tracing a ray requires solving the two following differential equations:
+As such, tracing a ray requires solving the following PDE:
 
 ![Ray equations](diffeq.png)
 
