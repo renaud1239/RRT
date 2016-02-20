@@ -10,7 +10,7 @@ As such, tracing a ray requires solving the following PDE:
 
 ![Ray equations](diffeq.png)
 
-in the polar coordinates *phi* and *r*, which is done using the (simple) Euler method.
+in the polar coordinates *phi* and *r* (relative to the black hole center), which is done using the (simple) Euler method.
 
 So this is all (quite) CPU intensive and I therefore (quite) aggressively optimized that code by means of both multithreading (ok this is easy enough as ray tracing, be it in Euclidean or non-Euclidean space, is embarrassingly parallel) as well as SIMD using IA32 SSE extensions. For the later, two rays are processed in parallel within one large SSE register and I even managed to make use of the *sqrtpd* instruction which computes square roots on packed doubles!
 
