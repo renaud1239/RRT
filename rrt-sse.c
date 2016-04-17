@@ -146,7 +146,7 @@ int checkIntersection(const int i,const int j,const double x,const double y,cons
 		l=(int)MAX(0.0,(z+WALL_DIST)*(TEXTURE_HEIGHT-1)/(2.0*WALL_DIST));
 		assert(k>=0 && l>=0);
 		assert(k<TEXTURE_WIDTH && l<TEXTURE_HEIGHT);
-		imag[i+j*IMAG_WIDTH]=texture[k*TEXTURE_WIDTH+l];
+		//imag[i+j*IMAG_WIDTH]=texture[k*TEXTURE_WIDTH+l];
 		
 		imag[i+j*IMAG_WIDTH]=texture[k*TEXTURE_WIDTH+l];//255;//texture[k*TEXTURE_WIDTH+l];
 		
@@ -176,7 +176,7 @@ int checkIntersection(const int i,const int j,const double x,const double y,cons
 		l=(int)MAX(0.0,(z+WALL_DIST)*(TEXTURE_HEIGHT-1)/(2.0*WALL_DIST));
 		assert(k>=0 && l>=0);
 		assert(k<TEXTURE_WIDTH && l<TEXTURE_HEIGHT);
-		imag[i+j*IMAG_WIDTH]=texture[k*TEXTURE_WIDTH+(TEXTURE_WIDTH-l-1)];
+		//imag[i+j*IMAG_WIDTH]=texture[k*TEXTURE_WIDTH+(TEXTURE_WIDTH-l-1)];
 		
 		imag[i+j*IMAG_WIDTH]=texture[k*TEXTURE_WIDTH+l];//255;//texture[k*TEXTURE_WIDTH+l];
 		
@@ -207,7 +207,7 @@ int checkIntersection(const int i,const int j,const double x,const double y,cons
 		l=(int)MAX(0.0,(z+WALL_DIST)*(TEXTURE_HEIGHT-1)/(2.0*WALL_DIST));
 		assert(k>=0 && l>=0);
 		assert(k<TEXTURE_WIDTH && l<TEXTURE_HEIGHT);
-		imag[i+j*IMAG_WIDTH]=texture[k+l*TEXTURE_WIDTH];
+		//imag[i+j*IMAG_WIDTH]=texture[k+l*TEXTURE_WIDTH];
 		
 		imag[i+j*IMAG_WIDTH]=texture[k*TEXTURE_WIDTH+l];//255;//texture[k*TEXTURE_WIDTH+l];
 		
@@ -237,7 +237,7 @@ int checkIntersection(const int i,const int j,const double x,const double y,cons
 		l=(int)MAX(0.0,(z+WALL_DIST)*(TEXTURE_HEIGHT-1)/(2.0*WALL_DIST));
 		assert(k>=0 && l>=0);
 		assert(k<TEXTURE_WIDTH && l<TEXTURE_HEIGHT);
-		imag[i+j*IMAG_WIDTH]=texture[k+(TEXTURE_HEIGHT-l-1)*TEXTURE_WIDTH];
+		//imag[i+j*IMAG_WIDTH]=texture[k+(TEXTURE_HEIGHT-l-1)*TEXTURE_WIDTH];
 		
 		imag[i+j*IMAG_WIDTH]=texture[k*TEXTURE_WIDTH+l];//255;//texture[k*TEXTURE_WIDTH+l];
 		
@@ -268,7 +268,7 @@ int checkIntersection(const int i,const int j,const double x,const double y,cons
 		l=(int)MAX(0.0,(y+WALL_DIST)*(TEXTURE_HEIGHT-1)/(2.0*WALL_DIST));
 		assert(k>=0 && l>=0);
 		assert(k<TEXTURE_WIDTH && l<TEXTURE_HEIGHT);
-		imag[i+j*IMAG_WIDTH]=texture[(TEXTURE_WIDTH-k-1)+l*TEXTURE_WIDTH];
+		//imag[i+j*IMAG_WIDTH]=texture[(TEXTURE_WIDTH-k-1)+l*TEXTURE_WIDTH];
 		
 		imag[i+j*IMAG_WIDTH]=texture[k*TEXTURE_WIDTH+l];//255;//texture[k*TEXTURE_WIDTH+l];
 		
