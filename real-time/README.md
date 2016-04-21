@@ -6,7 +6,7 @@ Just type run.sh and your webcam input will be fed behind a black hole on the fa
 
 With a little bit of training, it is even possible to create Einstein rings by just pointing your finger at the black hole (as below ;-).
 
-![Einstein ring screenshot](../deco/Einstein-ring-screenshot.bmp)
+![Einstein ring screenshot](../deco/Einstein-ring-screenshot-2.bmp)
 
 Enjoy !
 
