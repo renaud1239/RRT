@@ -2,6 +2,8 @@
 RRT - A numerical kernel for Relativistic Ray Tracing
 =====================================================
 
+**RRT is now featuring a real-time webcam feed version!** If that's what you are looking for, have a look directly at the real-time directory...
+
 This program provides a numerical code which simulates the distortion of light induced by a (non-rotating) black hole sitting at the center of a cube which faces are covered by some input image or texture.
 
 It does so by means of the ray tracing technique but with the rays bending according to the so-called Schwarzschild metric (i.e. the solution of Einstein's general relativity field equation for an isolated spherical non-rotating mass).
@@ -109,6 +111,6 @@ Any comments or questions on that code? Just let me know and I'll be happy to he
 
 Happy crunching!
 
-![The funky scientist](http://sirdeyre.free.fr/Renaud-cartoon-relativite.gif)
+![The funky scientist](deco/cartoon-relativity.gif)
 
 You can also check out the [web site](http://sirdeyre.free.fr/maths/relativity.htm)...
